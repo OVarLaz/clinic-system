@@ -65,3 +65,11 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+# gem 'ruby-vips'
+# gem 'tensorflow'
+
+# gem 'rmagick'
+# gem 'mini_magick'
+
+gem 'carrierwave'

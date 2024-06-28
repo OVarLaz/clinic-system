@@ -1,0 +1,14 @@
+<p>
+  <strong>Title:</strong>
+  <%= @image.title %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= image_tag @image.picture.url if @image.picture? %>
+</p>
+
+<p>
+  <strong>Label:</strong>
+  <%= @image.label %>
+</p>
